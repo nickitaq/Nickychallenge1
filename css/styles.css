@@ -1,0 +1,30 @@
+
+body{  background: #0099ff ;}
+
+.curve{border-radius: 4px;}
+.container, .posts{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    gap: 20px;
+}
+.user, .post{
+    min-width: 400px;
+    background:#a2d9ff;
+    font-size: larger;
+    padding: 23px;
+
+}
+a {  
+    text-decoration: none;
+    background: #0099ff ;
+    padding: 16px;
+    color: white;
+}
+.post{
+ background: #b8cbd8;
+}
+.back{
+  display: block;
+  background: #b8cbd8;
+}
